@@ -14,6 +14,7 @@
 		D709B60229CA91FB004676EB /* QueryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709B60129CA91FB004676EB /* QueryTag.swift */; };
 		D709B60429CB82E0004676EB /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709B60329CB82E0004676EB /* VideoManager.swift */; };
 		D709B60729CB935A004676EB /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709B60629CB935A004676EB /* VideoCard.swift */; };
+		D709B60929CBA3E5004676EB /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = D709B60829CBA3E5004676EB /* videoData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D709B60129CA91FB004676EB /* QueryTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTag.swift; sourceTree = "<group>"; };
 		D709B60329CB82E0004676EB /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 		D709B60629CB935A004676EB /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
+		D709B60829CBA3E5004676EB /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D709B5F229CA6FCA004676EB /* VideoPlayerApp.swift */,
+				D709B60329CB82E0004676EB /* VideoManager.swift */,
 				D709B60529CB8DDB004676EB /* Views */,
 				D709B60029CA91E7004676EB /* Components */,
 				D709B5F629CA6FCB004676EB /* Assets.xcassets */,
 				D709B5F829CA6FCB004676EB /* Preview Content */,
-				D709B60329CB82E0004676EB /* VideoManager.swift */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
@@ -70,6 +72,7 @@
 		D709B5F829CA6FCB004676EB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				D709B60829CBA3E5004676EB /* videoData.json */,
 				D709B5F929CA6FCB004676EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -152,6 +155,7 @@
 			files = (
 				D709B5FA29CA6FCB004676EB /* Preview Assets.xcassets in Resources */,
 				D709B5F729CA6FCB004676EB /* Assets.xcassets in Resources */,
+				D709B60929CBA3E5004676EB /* videoData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
